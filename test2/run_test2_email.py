@@ -17,7 +17,7 @@ def send_mail(file_new):
     smtp.login('yishui_lp@163.com','haoxueyishui204')
     smtp.sendmail('yishui_lp@163.com','1012378819@qq.com',msg.as_string())
     smtp.quit()
-    print 'email has send out!'
+    print('email has send out!')
 
 
 #---查找测试报告目录，找到最新生成的测试报告文件---
