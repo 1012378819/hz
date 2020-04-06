@@ -1,5 +1,5 @@
 #-*-coding:utf-8 -*-
-import requests as requests
+import requests
 import xlrd,requests,MySQLdb,time,sys
 from xlutils import copy # 从xlutils模块中导入copy这个函数
 

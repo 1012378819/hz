@@ -51,6 +51,7 @@ class BaiduTest(unittest.TestCase):
             self.accept_next_alert=True
 
     def tearDown(self):
+        self.driver.save_screenshot(r'.\01.png')
         self.driver.quit()
         self.assertEqual([],self.verificationErrors)
 
