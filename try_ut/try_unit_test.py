@@ -1,6 +1,6 @@
 #coding:utf-8
 import unittest
-from test2.cal import Count
+from try_ut.cal import Count
 
 class TestCount(unittest.TestCase):
     def setUp(self):
